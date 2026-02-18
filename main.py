@@ -5,10 +5,10 @@ import os
 app = FastAPI()
 
 DB_CONFIG = {
-    "host": "TU_SERVIDOR.postgres.database.azure.com",
-    "database": "wms_db",
-    "user": "usuario@servidor",
-    "password": "PASSWORD",
+    "host": "wms-postgres-server.postgres.database.azure.com",
+    "database": "postgres",
+    "user": "interlogadminbd",
+    "password": "Admin123!",
     "sslmode": "require"
 }
 
