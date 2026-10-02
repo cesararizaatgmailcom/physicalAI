@@ -96,6 +96,8 @@ az webapp create   --resource-group InterlogisticsGroup   --plan MyAppServicePla
 az webapp up --name physicalai-api
 ```
 
+Set `DB_PASSWORD` as an application setting in Azure App Service and in the local environment before running the API. Do not store database credentials in source control.
+
 ------------------------------------------------------------------------
 
 # 📊 Future Improvements
